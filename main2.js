@@ -14,7 +14,7 @@ const removeElement=(el)=>{
     el.remove()
 }
 form.onsubmit=(e)=>{
-    f.preventDefault()
+    e.preventDefault()
     const li=document.createElement('li')
     ul.appendChild(li)
     li.innerText=input.value
